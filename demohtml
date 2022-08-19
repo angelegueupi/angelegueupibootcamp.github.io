@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>
+Text Demo
+</title>
+</head>
+<body>
+    <center>
+   <!--Headings demo-->
+   <h1>This is a demo of differents types of text in html</h1>
+   <p>
+    <h2>Bolded text</h2>
+   <b> this is a bold text</b>
+   <strong>this is also ablod text</strong>
+   </p>
+   <p>
+    <i>this is italic  text</i> <br>
+    <em>also to italicized a text</em>
+    <h2> Underlined and strikethrough Text</h2>
+<p>
+    <u>This is underlined a text</u>
+    <del>This is  stirkethrough text using the del tag</del>
+</p>  
+<h2> quoted text</h2>
+<p>
+    <q></q>
+</p> This is a quoted text
+</p>
+ <p>Welcome to my web site!</p>
+</center>
+  </body>
+</html>

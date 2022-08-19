@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>
+Ordered list demo
+</title>
+</head>
+<body>
+   <!--Headings demo-->
+   <h1>This is a demo of a numbered list</h1>
+   <ol>
+    <li>Item</li>
+    <li>Other item</li>
+    <li>And another item</li>
+   </ol>
+   <h1>This is sa demo of a ordereded list</h1>
+   <ol>
+      <li>item</li>
+      <li>another item</li>
+      <li>another item again</li>
+   </ol>
+   <h1>This is a demo of a bulleted list with sub items</h1>
+   <ol>
+      <li>thing</li>
+      <ol>
+          <li>sub thing</li>
+          <li> another bub thing</li>
+      </ol>
+      <li>Another thinh</li>
+      <ol>
+          <li> This is other sub list</li>
+          <li> This is another sub thing</li>
+      </ol>
+      <h1>This is a demo of a numbered list with letter</h1>
+      <ol type = "A">
+      <li>item</li>
+      <li>another item</li>
+      <li>another item again</li>
+   </ol>
+   <h1>This is a demo of a numbered list with Roman numbers</h1>
+      <ol type = "1" start ="8">
+      <li>item</li>
+      <li>another item</li>
+      <li>another item again</li>
+   </ol>
+  </body>
+</html>

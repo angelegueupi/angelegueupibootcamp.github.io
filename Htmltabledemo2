@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>
+Table Demo 2
+</title>
+</head>
+<body>
+   <center>
+    <h1>Table demo - Bottcamps pet owners</h1>
+    <table border="2">
+        <tr>
+            <th>Bootcamper</th>
+            <th> Pet name</th>
+            <th>pet Type</th>
+        </tr>
+        <tr>
+            <td>Bobby</td>
+            <td>Jenny</td>
+            <td> Macau</td>
+        </tr>
+        <tr>
+            <td>Bryan</td>
+            <td>Puff</td>
+            <td> Fish</td>
+        </tr>
+        <tr>
+            <td>Sharon</td>
+            <td>Ronin</td>
+            <td> Dog</td>
+        </tr>
+        <tr>
+            <td>Everybody</td>
+            <td>Marshmallow</td>
+            <td> Panda</td>
+        </tr>
+    </table>
+   </center>
+   </body>
+</html>
