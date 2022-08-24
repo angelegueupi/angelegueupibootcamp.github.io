@@ -1,0 +1,28 @@
+/* css used to style boxes in the media query demo*/
+body{
+    background-color: aqua;
+
+}
+/* specify dimension of all boxes in the page*/
+.box{
+    width: 200px;
+    height: 200px;
+}
+.greenbox{
+    /* color of a box green*/
+    background-color: green;
+}
+.bluebox{
+    /* color of a box blue*/
+    background-color: rgb(13, 26, 205);
+    border-radius: 100px;
+    border: red;
+}
+.blackbox{
+    /* color of a box black*/
+    background-color: black;
+}
+.bluebox{
+    /* color of a box red*/
+    background-color: red;
+}

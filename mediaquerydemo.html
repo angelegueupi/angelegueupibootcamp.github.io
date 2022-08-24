@@ -1,20 +1,22 @@
 <html>
   <head>
     <title>
-      My Home Page
+      Media Query DEMO
     </title>
     <!-- to use external bootstrap use the following-->
     <link rel="stylesheet"        
      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"     
      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"        
      crossorigin="anonymous">
+
+     <link rel="stylesheet" href="boxstyle.css">
   </head>
   
   <body>
     <nav>
       <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a  aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
             <a href="headings.html">Heading Demo</a>
@@ -43,8 +45,39 @@
         <li class="nav-item">
             <a href="bootstrapdemo.html">Bootstrap Demo</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="mediaquerydemo.html">mediaquerydemo</a>
+        </li>
       </ul>
-    </nav>
+      <div class="dropdown show">
+        <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <!--this is a code for a navigation list-->
+          Navigation List
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="headings.html">Heading Demo</a>
+          <a class="dropdown-item" href="textdemo.html">Text Demo</a>
+          <a class="dropdown-item" href="unorderedlist.html">Unordered List Demo</a>
+          <a class="dropdown-item" href="orderedlist.html">Ordered List Demo</a>
+          <a class="dropdown-item" href="tableDemo1.html">Table Demo 1</a>
+          <a class="dropdown-item" href="tableDemo2.html">Table Demo 2 - Pets</a>
+          <a class="dropdown-item" href="cssdemo.html">CSS Demo</a>
+          <a class="dropdown-item" href="travel.html">Dream Vacation Page</a>
+          <a class="dropdown-item" href="bootstrapdemo.html">Bootstrap Demo</a>
+          <a class="dropdown-item" href="mediaQueryDemo.html">Media Query Demo</a>
+        </div>
+      </div>
+      <center>
+        <h2> Media query demo</h2>
+        <h3> this is a demo for the ...</h3>
+      </center>
+      <div class=" box greenbox"></div>
+      <div class=" box bluebox"></div>
+      <div class=" box blackbox"></div>
+      <div class=" box redbox"></div>
+</nav>
+
 
     <p>Welcome to my web site!</p>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
